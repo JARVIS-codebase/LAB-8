@@ -139,7 +139,7 @@ class Menace:
         print("\n")
 
     def exit(self):
-        ans = input("\nDo you want to continue? Yes or No \n")
+        ans = input("\nDo you want to continue? Yes or No\n")
         if ans.lower() == "no":
             print("Thank you for playing!! \n")
             a_file = open("data.json", "w")
